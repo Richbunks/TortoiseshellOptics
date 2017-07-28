@@ -147,6 +147,11 @@ footer.container {
   align-items: center;
 }
 
+.footer-style {
+  display: flex;
+  align-items: center;
+}
+
 
 footer {
   background-color: azure;
@@ -157,4 +162,19 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 2rem;
+}
+
+/* Tablet Portrait display response */
+
+@media only screen and (max-width: 1024px){
+  header {width: 100%;
+          padding-top: 0;
+          height: 22rem;}
+
+  .container {width: 100%;}
+  .banner-slogon {margin-top: 5rem;
+                  margin-right: 2rem;}
+  .banner-slogon h1 {font-size: 1.33rem;
+    padding: 0.75rem 4rem;}
+  footer {padding: 0;}
 }
