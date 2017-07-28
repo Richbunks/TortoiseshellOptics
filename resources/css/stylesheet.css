@@ -9,6 +9,11 @@ body {
   line-height: 1.4;
 }
 
+ /*div {
+  border: 1px solid green;*/
+
+}
+
 a {
   cursor: pointer;
 }
@@ -82,4 +87,74 @@ header .flex {
 
 .banner-slogon h1 {
   padding: 1.5rem 5rem;
+}
+
+/* icons styling */
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.icon img {
+  width: 5rem;
+
+}
+
+.icon img.paper {
+  width: 3.5rem;
+}
+
+/* Main Content styling */
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.info {
+  width: 35%;
+  justify-content: flex-start;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer style */
+footer.container {
+  display: flex;
+  align-items: center;
+}
+
+
+footer {
+  background-color: azure;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 2rem;
 }
