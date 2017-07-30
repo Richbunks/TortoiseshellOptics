@@ -109,6 +109,7 @@ header .flex {
 
 .icon img {
   width: 5rem;
+  margin-bottom: 1rem;
 
 }
 
@@ -177,4 +178,70 @@ footer img {
   .banner-slogon h1 {font-size: 1.33rem;
     padding: 0.75rem 4rem;}
   footer {padding: 0;}
+}
+
+@media only screen and (min-width: 641px) {
+  nav .menu-button {display: none;}
+}
+
+
+/* Mobile Portrait style response */
+
+@media only screen and (Max-width: 640px){
+
+  header {height: 17rem;
+          background-position: 20%;}
+
+  nav span, .menu-list {display: none;}
+
+  .banner-slogon {margin-top: 9rem;
+                  margin-right: 0;
+                  width: 100%;
+                  text-align: center;}
+
+  .banner-slogon h1 {font-size: 1rem;
+                    padding: 1rem 0;}
+
+  .icons {display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 3.77rem 0rem;}
+
+  .icon {width: auto;
+          height: auto;
+          padding-top: 0rem;
+          margin: auto;}
+
+  .ruler, .truck {padding-top: 1.54rem;}
+
+  .icon {font-size: 0.77rem;
+              display: flex;
+              width: 5rem;
+              }
+
+  .delivery {width: 3rem;}
+
+  .main-content {display: flex;
+                 flex-direction: column;
+                      justify-content: center;
+                      margin-bottom: 5rem;}
+
+  .info {width: 100%;
+         justify-content: center;
+         padding-left: 0rem;
+         padding-right: 0rem;
+
+           }
+ .title {width: 100%;
+          text-align: center;
+        padding-left: 0rem;}
+
+ .info p {font-size: 0.77rem;
+          padding-bottom: 4rem;
+          padding-left: 0.5rem;}
+
+ footer {justify-content: center;}
+
+ footer span {display: none;}
+
 }
